@@ -1,0 +1,201 @@
+body {
+    background-color: whitesmoke;
+}
+
+.sbtn {
+    color: royalblue;
+    border: none;
+    background: none;
+}
+.sbtn:hover {
+    cursor: pointer;
+    background-color: lightgrey;
+}
+
+.delete_answer_btn {
+    color: royalblue;
+    border: none;
+    background: none;
+}
+.delete_answer_btn:hover {
+    cursor: pointer;
+    background-color: lightgrey;
+}
+
+.answer_boxes div {
+    position: relative;
+}
+.delete_answer_btn {
+    position: absolute;
+    right: 20px;
+}
+
+#my_answer_box {
+    padding: 10px;
+    margin-left: 25px;
+    border-radius: 5px;
+    background-color: white;
+    margin-bottom: 15px;
+    box-shadow: 5px 5px rgb(218, 218, 218);
+}
+#uname {
+    color: steelblue;
+    font-size: large;
+    font-weight: bold;
+    margin: 5px 20px 5px 20px;
+}
+#my_answer_box p:nth-of-type(2) {
+    color: gray;
+    font-weight: bold;
+    font-size: larger;
+    margin: 10px 20px 10px 20px;
+}
+#myAnswer {
+    width: 50%;
+    margin: 5px 20px 5px 20px;
+}
+
+#question_detail_box {
+    position: relative;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+    margin-bottom: 15px;
+    box-shadow: 5px 5px rgb(218, 218, 218);
+}
+#questionEditor{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+    margin-bottom: 15px;
+    box-shadow: 5px 5px rgb(218, 218, 218);
+}
+#questionContent {
+    width: 75%;
+    
+}
+#question_submit_btn {
+    background-color: white;
+    padding: 5px 20px 5px 20px;
+}
+#edit_btn {
+    position:absolute;
+    right: 100px;
+}
+#delete_btn {
+    position:absolute;
+    right: 20px;
+}
+.space {
+    width: fit-content;
+    background-color: white;
+    font-size: smaller;
+    font-weight: bold;
+    padding: 2px;
+    margin: 0;
+    border: 3px solid steelblue;
+    border-radius: 5px;
+}
+.createInfo {
+    margin: 10px 0px 0px 0px;
+    padding: 0px;
+    
+}
+.name {
+    display: inline;
+    color: steelblue;
+    font-weight: bold;
+    font-size: large;
+    padding: 10px 5px 10px 0px;
+    margin: 0px;
+}
+.ansCreateDate {
+    display: inline;
+    font-size: smaller;
+    margin: 0px;
+    color: gray;
+    margin: 10px 5px 10px 5px;
+}
+
+.createDate {
+    display: inline;
+    font-size: smaller;
+    margin: 0px;
+    color: gray;
+    margin: 10px 5px 10px 5px;
+}
+
+article {
+    margin: 0px;
+    padding: 0px;
+}
+
+.content h3 {
+    margin: 10px 0px 10px 0px;
+}
+.content p {
+    margin: 10px 0px 10px 0px;
+}
+.ubtn {
+    border: none;
+    margin: 10px 15px 10px 15px;
+    background-color: white;
+}
+.ubtn:hover {
+    cursor: pointer;
+    background-color: lightgrey;
+}
+
+#answer_boxes div {
+    padding: 10px;
+    margin-left: 25px;
+    border-radius: 5px;
+    background-color: white;
+    margin-bottom: 15px;
+    box-shadow: 5px 5px rgb(218, 218, 218);
+}
+.answer {
+    margin: 10px 0px 10px 0px;
+}
+
+#submit_ans_btn {
+    border: none;
+    background: none;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+#submit_ans_btn:hover {
+    cursor: pointer;
+    background-color: lightgrey;
+}
+#cancel_ans_btn {
+    border: none;
+    background: none;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+#postAns {
+    width: fit-content;
+}
+#postAns:hover {
+    cursor: pointer;
+    background-color: lightgrey;
+}
+#cancel_ans_btn:hover {
+    cursor: pointer;
+    background-color: lightgrey;
+}
+
+@media screen and (max-width: 600px) {
+    .ansCreateDate {
+        display: block;
+        margin-left: 0px;
+    }
+
+    .createDate {
+        display: block;
+        margin-left: 0px;
+    }
+
+    
+}

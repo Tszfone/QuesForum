@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/new_question.css">
+    </head>
+
+    <body>
+        <button id="back_btn" onclick="location.href='main.html'">Back</button>
+        <div id="question_box">
+            <h3 style="text-align: center;">Ask your question</h3>
+            <form>
+                <label for="title">Title</label>
+                <br>
+                <input type="text" id="title" name="title" required>
+                <br>
+                
+
+                <label for="space">Space</label>
+                <br>
+                
+
+                <span>
+                    <input type="radio" id="algorithm" name="space" value="Algorithm">
+                    <label for="algorithm">Algorithm</label>
+                </span>
+                
+                <span>
+                    <input type="radio" id="machine_learning" name="space" value="Machine Learning">
+                    <label for="machine_learning">Machine Learning</label>
+                </span>
+
+                <span>
+                    <input type="radio" id="system" name="space" value="System">
+                    <label for="system">System</label>
+                </span>
+
+                <span>
+                    <input type="radio" id="javascript" name="space" value="Javascript">
+                    <label for="javascript">Javascript</label>
+                </span>
+                <br>
+                <br>
+            
+
+                <label for="content">Content</label>
+                <br>
+                <textarea id="content" name="content"  required></textarea>
+                <br>
+                <input id="submit_btn" class="btn" type="button" value="submit">
+            </form>
+        </div>
+
+
+        <script src="./javascript/new_question.js"></script>
+    </body>
+</html>

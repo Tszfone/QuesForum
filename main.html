@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./css/main.css">
+    </head>
+
+    <body>
+        <ul id="top_bar">
+            <li id="ques">ques</li>
+            <li id="home">Home</li>
+            <li id="hot">Hot</li>
+            <li><span id="searchIcon">🔎</span> <input id="title_word_filter" type="text" name="title_word"></li>
+            <li id="logout" style="display: none;">Log out</li>
+            <li id="register">Register</li>
+            <li id="login">Log in</li>
+        </ul>
+
+        <button id="add_question_btn" class="btn" style="display: none;">Ask Question</button>
+        <br>
+        
+        <div id="left_bar">
+            <div id="alFilter">Algorithm</div>
+            <div id="mlFilter">Machine Learning</div>
+            <div id="syFilter">System</div>
+            <div id="jsFilter">Javascript</div>
+        </div>
+
+        <section id="right_section">
+
+            <div id="question_box" style="display: none;">
+                <p id="userName"></p>
+                <p id="postQues">What is your question?</p>
+            </div>
+
+            <div id="questions">
+                
+            </div>
+        </section>
+        
+        <script src="./javascript/main.js"></script>
+    </body>
+</html>

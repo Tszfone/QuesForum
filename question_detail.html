@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/question_detail.css">
+    </head>
+
+    <body>
+        <button id="back_btn" class="sbtn" onclick="location.href='main.html'">Back</button>
+        <br>
+        <br>
+
+        <div id="question_detail_box">
+            
+        </div>
+
+        <div id="questionEditor" style="display: none;">
+            <label for="title">Title</label>
+            <br>
+            <input type="text" id="title" name="title" required>
+            <br>
+
+            <label for="space">Space</label>
+            <br>
+            <input type="radio" id="algorithm" name="space" value="Algorithm">
+            <label for="algorithm">Algorithm</label>
+            
+            <input type="radio" id="machine_learning" name="space" value="Machine Learning">
+            <label for="machine_learning">Machine Learning</label>
+            
+            <input type="radio" id="system" name="space" value="System">
+            <label for="system">System</label>
+            
+            <input type="radio" id="javascript" name="space" value="Javascript">
+            <label for="javascript">Javascript</label>
+            <br>
+
+            <label for="content">Content</label>
+            <br>
+            <textarea id="questionContent" name="questionContent" rows="4" required></textarea>
+            <br>
+            <input id="question_submit_btn" type="button" value="submit">
+        </div>
+
+        <div id="answer_boxes">
+            
+        </div>
+
+
+        <div id="my_answer_box" style="display: none;">
+            <div>
+                <p id="uname"></p>
+                <p id="postAns" onclick="showNewAnsBox()">Post your new answer.</p>
+            </div>
+            
+            <div id="new_answer_box" style="display: none;">
+                <textarea id="myAnswer" name="myAnswer" required></textarea>
+                <br>
+                <button id="submit_ans_btn">Submit</button>
+                <button id="cancel_ans_btn" onclick="showNewAnsBox(event)">Cancel</button>
+            </div>
+        </div>
+
+        <script src="./javascript/question_detail.js"></script>
+    </body>
+</html>
